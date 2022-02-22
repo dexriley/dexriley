@@ -17,16 +17,6 @@ body {
     align-items: center;
 }
 
-.button-div {
-    text-decoration: none;
-    padding: 20px;
-    text-align: center;
-    width: 40vw;
-    background-color: yellow;
-    border-style: dashed;
-    border-color: blue;
-}
-
 .audio {
     display: flex;
     flex-direction: column;
@@ -35,8 +25,14 @@ body {
 
 a {
     text-decoration: none;
+    color: blue;
+    padding: 50px;
 }
 
 .button-div:hover {
     background-color: pink;
+}
+
+a:hover {
+    color: lightblue;
 }
