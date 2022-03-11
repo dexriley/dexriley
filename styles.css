@@ -6,6 +6,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin: 20px;
 }
 
 .feature-image {
@@ -23,10 +24,11 @@ body {
 a {
     text-decoration: none;
     color: blue;
+    font-size: 30px;
 }
 
 a:hover {
-    color: lightblue;
+    color: orange;
 }
 
 .info-sect {
@@ -54,8 +56,29 @@ a:hover {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .footer-cont {
     text-align: center;
+}
+
+h1 {
+    font-size: 80px;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    padding: 0;
+    text-align: center;
+}
+
+p {
+    margin: 10px;
+}
+
+.top-right-corner {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    padding: 20px;
 }
