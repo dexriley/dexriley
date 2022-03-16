@@ -27,6 +27,10 @@ a {
     font-size: 30px;
 }
 
+iframe {
+    max-width: 600px;
+}
+
 a:hover {
     color: orange;
 }
