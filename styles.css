@@ -25,6 +25,7 @@ a {
     text-decoration: none;
     color: blue;
     font-size: 30px;
+    transition: color 250ms;
 }
 
 iframe {
